@@ -1,0 +1,75 @@
+.madras-placement {
+  background-color: #fff;
+  padding: 11px 25px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 46rem;
+}
+
+.madras-placement hr {
+  margin: 20px 0;
+}
+
+.madras-placement .card h3 {
+  font-weight: 400;
+}
+
+.madras-placement .card a {
+  color: #716c6c;
+  font-size: 15px;
+}
+
+.madras-placement .card .img {
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.2);
+  width: 2rem;
+  padding: 13px 17px;
+  border-radius: 50%;
+}
+
+.madras-placement .card .row-1 {
+  margin: 20px 0;
+}
+
+.madras-placement .card .row-1 .growth-card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #ececec;
+  padding: 14px 24px;
+  border-radius: 8px;
+  height: 5rem;
+}
+
+.madras-placement .card .row-1 .growth-card .img {
+  margin-right: 20px;
+}
+
+.madras-placement .card .row-1 .growth-card p {
+  font-size: 12px;
+}
+
+.madras-placement .card .row-1 .col2 .logo-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 14rem;
+  margin-left: 20px;
+}
+
+.madras-placement .card .row-1 .col2 .logo-imgs img {
+  width: 5rem;
+}
+
+.madras-placement .card button {
+  background-color: #ff5c00;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  padding: 8px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  margin: auto;
+  border: none;
+}

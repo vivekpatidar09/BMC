@@ -1,0 +1,546 @@
+.list-card {
+  display: flex;
+}
+
+.list-card .l-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-card .card {
+  border: 2px solid rgb(227, 227, 227);
+  width: 100%;
+  height: 17rem;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.list-card .card .data {
+  margin-top: 10px;
+  overflow-y: scroll;
+  height: 11rem;
+}
+
+.list-card .card .search-box {
+  padding: 0 8px;
+}
+
+.list-card .l-div .card hr {
+  border: 0.2px solid #e0e0e0;
+  margin: 10px -8px;
+}
+
+.list-card .r-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-card .card .row {
+  display: flex;
+  margin-bottom: 11px;
+  width: 16rem;
+  justify-content: space-between;
+}
+
+.list-card .card .search {
+  width: 93%;
+  padding: 8px 9px;
+  background-color: #f4f4f4;
+  border: none;
+  outline: none;
+}
+
+.list-card .card .row .checkbox {
+  accent-color: #ff5c00;
+  height: 15px;
+  border: 1px solid #ff5c00;
+  margin-top: 3px;
+  width: 17px;
+}
+
+.list-card .card .row p:nth-child(2) {
+  /* margin: 0 13px; */
+  margin-left: 13px;
+  margin-right: 22px;
+  font-size: 13.5px;
+  font-weight: 500;
+}
+
+.list-card .card .row p:nth-child(3) {
+  float: right;
+}
+
+.list-card .card2 {
+  border: 2px solid #e1e1e1;
+  width: 44rem;
+  height: 6.5rem;
+  border-radius: 5px;
+  margin: 0px 0 24px 3rem;
+  padding: 17px 19px;
+}
+
+.list-card .card2 .row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 19rem;
+  /* margin-bottom: 10px; */
+}
+
+.list-card .card2 .btns {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-card .card2 .btns button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 30px;
+  border: none;
+  width: 8rem;
+  font-size: 10px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #ff5c00;
+  padding: 10px;
+}
+
+.list-card .r-div .read-btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 30px;
+  border: 1.5px solid #ff5c00;
+  width: 8rem;
+  font-size: 10px;
+  font-weight: 600;
+  color: #ff5c00;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 4rem;
+}
+
+.list-card .card2 .btns button:nth-child(2) {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  border-radius: 30px;
+  border: 1.5px solid #ff5c00;
+  width: 8rem;
+  font-size: 10px;
+  font-weight: 600;
+  color: #ff5c00;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.list-card .card2 .row1 img {
+  width: 2.5rem;
+  margin-right: 10px;
+}
+
+.list-card .card2 .row2 p {
+  color: #747373;
+  font-size: 13px;
+  margin-top: -6px;
+  display: flex;
+  align-items: center;
+  margin-left: 57px;
+}
+
+.list-card .col1 p {
+  color: #ff5c00;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.list-card .r-div .card2 h4 {
+  font-weight: 500;
+}
+
+.list-card .card2 a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-weight: 700;
+}
+
+.list-card .starIcon {
+  color: orange;
+  font-size: 15px;
+  margin: 10px 5px 9px 5px;
+}
+
+.list-card .row2 {
+  display: flex;
+  align-items: center;
+}
+
+.list-card .card3 .btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-card .card3 .btns button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 6px;
+  border-radius: 30px;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #d9d9d9;
+  padding: 6px 18px;
+}
+
+.list-card .card3 {
+  width: 44rem;
+  margin: auto 50px;
+  margin-bottom: 30px;
+  padding: 20px 20px 0 20px;
+  background-color: #f4f4f4;
+}
+
+.list-card .card3 hr {
+  border: 1.4px solid #ff5c00;
+  width: 24.2rem;
+  margin: 10px;
+}
+
+/* crowsel */
+
+.list-card .slick-slide {
+  max-width: 18.8rem;
+  margin: 0 31px;
+}
+
+/* MOBILE  */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .list-container {
+    padding: 0 4rem;
+  }
+
+  .list-card .slick-slide {
+    max-width: 9.5%;
+    margin: 0 1.37%;
+  }
+
+  .list-container .head-card p {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .list-container .head-card h4 {
+    font-size: 33px;
+  }
+  .list-container .head-card h5 {
+    font-size: 23px;
+  }
+
+  .list-container .head-card a {
+    font-size: 20px;
+  }
+
+  .list-card .r-div .card2 h4 {
+    font-size: 25px;
+  }
+
+  .list-card .card .search {
+    width: 90%;
+    font-size: 15px;
+    padding: 10px 14px;
+  }
+
+  .list-card .card2 {
+    padding: 33px;
+    width: 40rem;
+    height: 9rem;
+  }
+
+  .list-card .card3 {
+    width: 39.7rem;
+    margin: auto 49px;
+    margin-bottom: 24px;
+    padding: 36px;
+    padding-bottom: 0;
+    background-color: #f4f4f4;
+  }
+
+  .list-card .card2 .row2 p {
+    color: #747373;
+    font-size: 19px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .list-card .card3 .btns button {
+    margin-top: 19px;
+    margin-right: 7px;
+    font-size: 11px;
+    padding: 13px 15px;
+  }
+
+  .list-card .card2 .btns button {
+    width: 9rem;
+    font-size: 15px;
+    padding: 13px;
+    margin: 15px auto;
+  }
+
+  .list-card .card2 .btns button:nth-child(2) {
+    width: 9rem;
+    font-size: 12px;
+    padding: 13px;
+    margin: 5px auto;
+  }
+
+  .list-card .card .row .checkbox {
+    height: 17px;
+    margin-top: 6px;
+    width: 19px;
+  }
+
+  .list-card .card .row p:nth-child(2) {
+    width: 10rem;
+    font-size: 17px;
+  }
+
+  .list-card .card .row p:nth-child(3) {
+    font-size: 17px;
+  }
+
+  .list-card .card .data {
+    margin-top: 10px;
+    overflow-y: scroll;
+    height: 14rem;
+  }
+
+  .list-card .card {
+    border: 2px solid rgb(227, 227, 227);
+    width: 103%;
+    height: 20rem;
+  }
+
+  .list-card .card2 .row1 img {
+    width: 4rem;
+    margin-right: 19px;
+  }
+
+  .list-card .card2 .row1 {
+    display: flex;
+    flex-direction: row;
+    width: 24rem;
+  }
+
+  .list-card h3 {
+    font-size: 21px;
+  }
+
+  .list-card .card2 p {
+    font-size: 20px;
+    width: 23.5rem;
+    margin-top: 20px;
+  }
+}
+
+/* TAB  */
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .list-container {
+    padding: 0 2rem;
+  }
+
+  .list-card .card2 .row2 p {
+    width: 16.5rem;
+    margin-left: 30px;
+  }
+
+  .list-card .card2 {
+    border: 2px solid #e1e1e1;
+    width: 22rem;
+    padding: 33px 72px 33px 10px;
+    margin: 0px 0 24px 2rem;
+  }
+
+  .list-card .card {
+    border: 2px solid rgb(227, 227, 227);
+    width: 95%;
+  }
+
+  .list-card .card2 .btns button,
+  .list-card .card2 .btns button:nth-child(2) {
+    font-size: 12px;
+    width: 9rem;
+    margin: 5px auto;
+  }
+
+  .list-card .card2 .row1 {
+    display: flex;
+    width: 17rem;
+  }
+
+  .list-card .row2 {
+    display: flex;
+    width: 17rem;
+  }
+
+  .list-card .card3 {
+    width: 25rem;
+    margin: auto 33px;
+    margin-bottom: 30px;
+  }
+
+  .list-card .r-div {
+    display: flex;
+    width: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .list-card .card3 .btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .list-container {
+    padding: 0 2rem;
+  }
+
+  .list-card .card2 .row2 p {
+    width: 12.5rem;
+    margin-left: 30px;
+  }
+
+  .list-card .card2 {
+    border: 2px solid #e1e1e1;
+    width: 21rem;
+    padding: 33px 72px 33px 17px;
+    margin: 0px 0 24px 2rem;
+  }
+
+  .list-card .card .row {
+    display: flex;
+    margin-bottom: 11px;
+    width: 13rem;
+  }
+
+  .list-card .card {
+    border: 2px solid rgb(227, 227, 227);
+    width: 95%;
+  }
+
+  .list-card .card2 .btns button,
+  .list-card .card2 .btns button:nth-child(2) {
+    font-size: 11px;
+    width: 8rem;
+    margin: 5px auto;
+  }
+
+  .list-card .card2 .row1 {
+    display: flex;
+    width: 17rem;
+  }
+
+  .list-card .row2 {
+    display: flex;
+    width: 17rem;
+  }
+
+  .list-card .card3 {
+    width: 25rem;
+    margin: auto 33px;
+    margin-bottom: 30px;
+  }
+
+  .list-card .r-div {
+    display: flex;
+    width: 1rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1266px) {
+  .list-card .slick-slide {
+    max-width: 10.3%;
+    margin: 0px 1%;
+  }
+
+  .list-card .card .row {
+    display: flex;
+    margin-bottom: 11px;
+    width: 14rem;
+  }
+
+  .list-card .card2 {
+    border: 2px solid #e1e1e1;
+    width: 33rem;
+    height: 7rem;
+    margin: 0px 0 24px 3rem;
+  }
+
+  .list-card .card2 .row2 p {
+    font-size: 15px;
+    margin-left: 45px;
+  }
+
+  .list-card .r-div .card2 h4 {
+    font-weight: 500;
+    font-size: 19px;
+  }
+
+  .list-card .card2 .btns button {
+    font-size: 13px;
+    width: 9rem;
+    margin: 15px auto;
+  }
+
+  .list-card .card2 .btns button:nth-child(2) {
+    font-size: 12px;
+    width: 9rem;
+    margin: 10px auto;
+  }
+  .list-card .col1 p {
+    color: #ff5c00;
+    font-size: 13px;
+  }
+
+  .list-card .card3 {
+    width: 37rem;
+    margin: auto 48px;
+    margin-bottom: 30px;
+    padding: 20px 8px 0 20px;
+    background-color: #f4f4f4;
+  }
+
+  .list-card .card3 .btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .list-container .head-card p {
+    font-size: 18px;
+    margin: 11px 0;
+  }
+  .list-container .head-card h4 {
+    font-size: 25px;
+  }
+  .list-container .head-card h5 {
+    font-size: 18px;
+  }
+
+  .list-container .head-card a {
+    font-size: 17px;
+  }
+}

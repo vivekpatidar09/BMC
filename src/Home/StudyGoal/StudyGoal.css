@@ -1,0 +1,181 @@
+/* .study-goal {
+  margin: 30px 0;
+  display: flex;
+} */
+
+.study-goal p {
+  color: #616161;
+}
+
+.study-goal .col-2 p {
+  font-size: 14px;
+  margin: 6px 0;
+  padding: 6px 0;
+}
+
+.study-goal .col-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.study-goal .col-1 img {
+  width: 60px;
+  margin: 10px;
+}
+
+.study-goal .col-2 {
+  padding: 0 20px;
+}
+
+/* crowsel */
+
+.study-goal .slick-slide {
+  max-width: 246px;
+  margin: 0 15px;
+}
+
+.study-goal .col-2 hr {
+  border: 1px solid #e1e1e1;
+  width: 15.5rem;
+  margin: 0px -22px;
+}
+
+.study-goal .card {
+  border: 2px solid #e1e1e1;
+  width: 10px;
+  flex-direction: row;
+  border-radius: 5px;
+  margin: 6px;
+  /* padding: 12px; */
+}
+
+.study-goal .card:hover {
+  transition: 0.2s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.study-goal .card1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.study-goal .col-1 h3 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.study-goal .col-1 p {
+  font-size: 13px;
+}
+
+.study-goal .col-2 p:nth-child(5) {
+  height: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .study-goal .card {
+    border: 2px solid #e1e1e1;
+    width: 210px;
+  }
+
+  .study-goal .col-1 img {
+    width: 85px;
+    margin: 0;
+    margin: 0 18px;
+  }
+
+  .study-goal .col-1 p {
+    font-size: 24px;
+    margin: 5px 0;
+  }
+
+  .study-goal .col-2 p {
+    font-size: 24px;
+    margin: 6px;
+    padding: 6px;
+  }
+
+  .study-goal .col-1 h3 {
+    font-size: 43px;
+  }
+
+  .study-goal .col-2 hr {
+    border: 1px solid #e1e1e1;
+    width: 14.6rem;
+  }
+
+  .study-goal .card1 {
+    padding: 23px;
+  }
+
+  .study-goal .slick-slide {
+    max-width: 9.2%;
+    margin: 0 0.4%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .study-goal .card {
+    border: 2px solid #e1e1e1;
+    width: 210px;
+  }
+
+  .study-goal .col-2 {
+    padding: 0;
+  }
+
+  .study-goal .col-1 img {
+    width: 76px;
+    margin: 0;
+    margin-right: 9px;
+  }
+
+  .study-goal .col-1 p {
+    font-size: 24px;
+    margin: 5px 0;
+  }
+
+  .study-goal .col-2 p {
+    font-size: 24px;
+    margin: 6px;
+    padding: 6px;
+  }
+
+  .study-goal .col-1 h3 {
+    font-size: 31px;
+  }
+
+  .study-goal .col-2 hr {
+    border: 1px solid #e1e1e1;
+    width: 109%;
+    margin: 0px -13px;
+  }
+
+  .study-goal .card1 {
+    padding: 12px;
+  }
+
+  .study-goal .slick-slide {
+    max-width: 9%;
+    margin: 0px 0.5%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1266px) {
+  .study-goal .col-1 h3 {
+    font-size: 39px;
+  }
+
+  .study-goal .col-1 img {
+    width: 100px;
+  }
+
+  .study-goal .col-2 p {
+    font-size: 29px;
+  }
+
+  .study-goal .card1 {
+    padding: 20px;
+  }
+}

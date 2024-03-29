@@ -1,0 +1,92 @@
+.cutoff {
+  background-color: #fff;
+  padding: 11px 25px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 46rem;
+}
+
+.cutoff .card h3 {
+  font-weight: 400;
+}
+
+.cutoff .card .row1 button {
+  border: 1.5px solid #ff5c00;
+  background: none;
+  font-size: 11px;
+  padding: 3px 10px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.cutoff .card .row1 {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.cutoff .card .row1 p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.cutoff .card .row2 p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.cutoff .table table,
+td,
+th {
+  background-color: #fff;
+  border: 1px solid rgb(197 194 194);
+  padding: 10px;
+}
+
+.cutoff .table {
+  width: 100%;
+  margin: 20px 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.cutoff .table table {
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+.cutoff .table table tr td:nth-child(1) {
+  color: #ff5c00;
+  width: 17rem;
+}
+
+.cutoff .table table tr td p {
+  align-items: center;
+  display: flex;
+}
+
+.cutoff .table table tr td {
+  width: 11rem;
+  padding: 16px;
+}
+
+.cutoff .table table tr th {
+  text-align: start;
+  font-weight: 500;
+  background-color: #f4f4f4;
+}
+
+.cutoff .card .viewBtn {
+  background-color: #ff5c00;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  padding: 8px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  margin: auto;
+  border: none;
+}

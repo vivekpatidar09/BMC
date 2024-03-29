@@ -1,0 +1,116 @@
+.comments {
+  background-color: #fff;
+  padding: 20px;
+  margin: 2rem 0;
+  width: 46.6rem;
+  height: 100%;
+}
+
+.comments .no-of-comment {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.comments hr {
+  margin: 1rem 0;
+  border: 1px solid rgb(225, 222, 222);
+}
+
+.comments .text-area textarea {
+  padding: 20px;
+  height: 6rem;
+  width: 44rem;
+  outline: none;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.comments .text-area .cmt-alert {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.comments .text-area .cmt-alert p {
+  color: #ff5c00;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.comments .text-area button {
+  float: right;
+  background-color: #ff5c00;
+  color: #fff;
+  padding: 12px 15px;
+  font-size: 10px;
+  /* margin: 10px 0; */
+  border: none;
+  border-radius: 5px;
+}
+
+.comments .comment-section {
+  margin: 3rem 0;
+  margin-bottom: 10px;
+}
+
+.comments .comment-section .col1 .row1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comments .comment-section .col2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comments .comment-section .col2 .row1 {
+  display: flex;
+  padding: 8px 10px;
+  margin: 20px 0;
+  background-color: #f2f2f2;
+}
+
+.comments .comment-section .date {
+  float: right;
+  color: #ff5c00;
+  display: flex;
+  font-size: 10px;
+  font-weight: 500;
+  flex-direction: column-reverse;
+}
+
+.comments .comment-section .row1 img {
+  width: 2.5rem;
+  height: 2.4rem;
+  margin: 0 10px;
+}
+
+.comments .comment-section .row1 button img {
+  width: 14px;
+  height: 8px;
+  margin: 0;
+}
+
+.comments .comment-section .row1 button {
+  font-weight: 600;
+  font-size: 11px;
+  background: none;
+  border: none;
+  margin: 0 5px;
+  color: #ff5c00;
+}
+
+.comments .comment-section .row1 p {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 2px 0;
+  width: 37rem;
+}
+
+.comments .load-more{
+    width: 100%;
+    background: none;
+    padding: 10px;
+    border: 1px solid #c0bcbc;
+    color: #ff5c00;
+    font-weight: 600;
+}

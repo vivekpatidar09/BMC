@@ -1,0 +1,23 @@
+.navigation-btns button {
+  background: none;
+  border: none;
+  margin: 0 12px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.navigation-btns button:hover {
+  color: #ff5c00;
+  transition: 0.2s;
+}
+
+.navigation-btns {
+  padding: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .navigation-btns button {
+    margin: 0 10px;
+    font-size: 12px;
+  }
+}

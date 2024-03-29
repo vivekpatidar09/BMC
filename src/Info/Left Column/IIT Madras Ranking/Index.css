@@ -1,0 +1,55 @@
+.ranking {
+  background-color: #fff;
+  padding: 11px 24px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 46rem;
+}
+
+.ranking .card .col1 {
+  margin: 20px 10px;
+  border: 2px solid rgb(231, 227, 227);
+  border-radius: 5px;
+  width: 45%;
+  height: 13rem;
+  padding: 10px;
+}
+
+.ranking .card .row1 {
+  display: flex;
+}
+
+.ranking .card .col1 img {
+  margin: 10px auto;
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ranking .card .col1 p {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.ranking h3 {
+  font-weight: 400;
+}
+
+.ranking .card a {
+  color: #716c6c;
+  font-size: 15px;
+}
+
+.ranking .card button {
+  background-color: #ff5c00;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  margin: auto;
+  border: none;
+}

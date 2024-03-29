@@ -1,0 +1,56 @@
+/* CARD 15  */
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 55px auto;
+}
+
+.subscribe p {
+  margin: 15px 0;
+}
+
+.subscribe h2 {
+  font-weight: 600;
+}
+
+.subscribe .navbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe .navbtn button {
+  margin: 10px;
+  padding: 7px;
+  border-radius: 30px;
+  width: 14rem;
+  border: 1.5px solid rgb(164, 162, 162);
+  background: none;
+  font-size: 15px;
+  color: #b0a8a8;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe .navbtn button select {
+  color: #b0a8a8;
+  border: none;
+  outline: none;
+}
+
+.subscribe .navbtn .submit {
+  border: none;
+  width: 10rem;
+  color: #ffff;
+  background-color: #ff5c00;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .subscribe .navbtn button {
+    font-size: 14px;
+  }
+}

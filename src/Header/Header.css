@@ -1,0 +1,335 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #fce9d2;
+  padding: 10px 0;
+}
+
+.header .h-row-1 {
+  display: flex;
+  height: 4.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .search-box {
+  display: flex;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.h-row-1 input {
+  width: 40rem;
+  border: none;
+  outline: none;
+  height: 1rem;
+  padding: 12px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.h-row-1 button {
+  border: none;
+  outline: none;
+  padding: 12px 25px;
+  z-index: 2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+  background-color: #ff5c00;
+}
+
+.h-row-1 span {
+  margin-right: 25px;
+}
+
+.header .h-logo {
+  margin: 0 40px;
+}
+
+.header .h-row-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* HEADER SELECT  */
+
+.header .h-row-2 .nav-btns {
+  position: relative;
+}
+
+.header .h-row-2 .nav-btns select {
+  margin: 5px;
+  background: none;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.selectdiv {
+  position: relative;
+  float: left;
+  min-width: 85px;
+  margin: 0px 2px;
+}
+
+.selectdiv:nth-child(1) {
+  min-width: 60px;
+}
+
+.selectdiv:nth-child(2) {
+  min-width: 126px;
+}
+
+.selectdiv:nth-child(3) {
+  min-width: 90px;
+}
+
+.selectdiv:nth-child(5) {
+  min-width: 73px;
+}
+
+.selectdiv:nth-child(6) {
+  min-width: 133px;
+}
+
+.selectdiv:nth-child(7) {
+  min-width: 121px;
+}
+
+.selectdiv:nth-child(8) {
+  min-width: 124px;
+}
+
+.header .h-row-2 .selectdiv::after {
+  content: "▼";
+  font: 18px "Consolas", monospace;
+  position: absolute;
+  right: 10px;
+  margin-top: 1px;
+}
+
+/* HEADER SELECT END  */
+
+.header .h-log-sign-btn {
+  position: absolute;
+  right: 20px;
+  top: 68px;
+}
+
+.header .h-log-sign-btn button {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  margin: 16px;
+}
+
+.menu-icon {
+  display: none;
+  visibility: hidden;
+}
+
+.h-row-2 .close-icon {
+  display: none;
+  visibility: hidden;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .h-row-1 input {
+    width: 22rem;
+    padding: 22px;
+  }
+
+  .h-row-1 button {
+    border: none;
+    outline: none;
+    padding: 22px 30px;
+  }
+
+  .nav-close {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .h-nav-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .h-row-2 .nav-btns select {
+    margin: 10px;
+    width: 16rem;
+    font-size: 22px;
+  }
+
+  .h-row-1 .menu-icon {
+    display: inline-block;
+    visibility: visible;
+    font-size: 50px;
+    top: 14px;
+    color: #121212;
+    margin: 9px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .h-row-2 .close-icon {
+    display: inline-block;
+    visibility: visible;
+    margin: 0;
+    margin-left: 12px;
+    font-size: 50px;
+    color: #1a1a1a;
+    cursor: pointer;
+  }
+
+  .h-nav-btn {
+    display: none;
+  }
+
+  .h-nav-btn.active {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .header .h-row-2 {
+    display: inline;
+  }
+
+  .header .h-log-sign-btn button {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 29px;
+    margin: 8px 18px;
+    color: red;
+  }
+
+  .header .nav-btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .h-log-sign-btn {
+    margin-top: 20px;
+    position: static;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .h-row-1 input {
+    width: 15rem;
+    padding: 12px;
+  }
+
+  .h-row-1 span {
+    margin-right: 25px;
+    font-size: 13px;
+  }
+
+  .nav-close {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .h-row-1 button {
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+  }
+
+  .h-nav-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .h-row-2 .nav-btns select {
+    margin: 10px;
+    width: 16rem;
+    font-size: 24px;
+  }
+
+  .header .nav-btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h-row-1 .menu-icon {
+    display: inline-block;
+    visibility: visible;
+    font-size: 37px;
+    top: 14px;
+    color: #121212;
+    margin: 9px;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .h-row-2 .close-icon {
+    display: inline-block;
+    visibility: visible;
+    margin: 17px 0;
+    margin-left: 12px;
+    font-size: 50px;
+    color: #1a1a1a;
+    cursor: pointer;
+  }
+
+  .h-nav-btn {
+    display: none;
+  }
+
+  .h-nav-btn.active {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .header .h-row-2 {
+    display: inline;
+  }
+
+  .header .h-log-sign-btn button {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 29px;
+    margin: 8px 18px;
+    color: red;
+  }
+
+  .header .h-log-sign-btn {
+    margin-top: 20px;
+    position: static;
+  }
+
+  .poster .search-row input {
+    width: 73%;
+  }
+
+  .header .search-box {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+  }
+}
+  

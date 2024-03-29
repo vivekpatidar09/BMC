@@ -1,0 +1,182 @@
+.review {
+  background-color: #fff;
+  padding: 11px 24px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 46rem;
+}
+
+.review .card h3 {
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.review .card .rating {
+  background-color: #fff3eb;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review .card .rating .col1 .row1,
+.review .card .rating .col1 .row2 {
+  display: flex;
+  margin: -5px 0;
+  align-items: center;
+}
+
+.review .card .rating .col1 .row1 img {
+  width: 2rem;
+  margin: 0 5px;
+}
+
+.review .card .rating .col1 .row1 p {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.review .card .rating .col1 .row1 p span {
+  font-size: 20px;
+}
+
+.review .card .rating .col1 .row2 p {
+  font-size: 11px;
+  color: #858585;
+}
+
+.review .card .rating .col1 .row2 img {
+  width: 10px;
+}
+
+.review .card .rating .col2 .row1,
+.review .card .rating .col2 .row2,
+.review .card .rating .col2 .row3 {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.review .card .rating .col2 .row1 img,
+.review .card .rating .col2 .row2 img,
+.review .card .rating .col2 .row3 img {
+  width: 12px;
+  height: 12px;
+  margin: 0 10px;
+}
+
+.review .card .rating .col2 .row1 p,
+.review .card .rating .col2 .row2 p,
+.review .card .rating .col2 .row3 p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.review .card .rating .col2 .progressbarP {
+  width: 20rem;
+  border-radius: 20px;
+  margin: 0 10px;
+  background-color: #fff;
+  height: 6px;
+}
+
+.review .card .rating .col2 .row1 .progressbarP .progressbarC {
+  width: 80%;
+  background-color: #ff5c00;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.review .card .rating .col2 .row2 .progressbarP .progressbarC {
+  width: 45%;
+  background-color: #ff5c00;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.review .card .rating .col2 .row3 .progressbarP .progressbarC {
+  width: 20%;
+  background-color: #ff5c00;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.review .card .boxes-section {
+  display: flex;
+  margin: 20px 0;
+}
+
+.review .card .box {
+  padding: 11px;
+  height: 5rem;
+  width: 6rem;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #f3f0f0;
+}
+
+.review .card .box img {
+  width: 2rem;
+  margin: 7px auto;
+}
+
+.review .card .box p:nth-child(2) {
+  margin-left: 32px;
+}
+
+.review .card .box p {
+  display: flex;
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.review .card .box p img {
+  width: 8px;
+  margin-right: 2px;
+}
+
+.review .card .selectbtns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review .card .selectbtns select {
+  background: none;
+  outline: none;
+  padding: 8px 6px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  margin: 0 5px;
+  border: 1.5px solid #ff5c00;
+}
+
+.review .card .selectbtns button {
+  background: none;
+  outline: none;
+  padding: 8px 6px;
+  border-radius: 5px;
+  font-size: 11.5px;
+  font-weight: 500;
+  margin: 0 5px;
+  border: 1.5px solid #ff5c00;
+}
+
+.review .card hr {
+  margin: 15px 0;
+}
+
+.review .card button {
+  background: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 11.5px;
+  font-weight: 500;
+  margin: 0 5px;
+  border: 1.5px solid #ff5c00;
+}

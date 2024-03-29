@@ -1,0 +1,102 @@
+.courses-offered {
+  border-radius: 5px;
+  margin: 1rem 0;
+  margin-bottom: 0;
+  width: 49rem;
+}
+
+.courses-offered .card {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.courses-offered .card h3 {
+  font-weight: 400;
+}
+
+.courses-offered .card p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.courses-offered .card .data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses-offered .card .data .col1 .btns {
+  margin: 20px 0;
+}
+
+.courses-offered .card .data .col1 button {
+  padding: 9px;
+  margin: 0 8px;
+  border-radius: 5px;
+  background: none;
+  border: 1.4px solid #ff5c00;
+  color: #ff5c00;
+}
+
+.courses-offered .card hr {
+  width: 104.9%;
+  margin: 10px -20px;
+}
+
+.courses-offered .card .detail {
+  display: flex;
+}
+
+.courses-offered .card .detail p {
+  margin: 2px 5px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 20px;
+  color: #ff5c00;
+  font-weight: 500;
+}
+
+.courses-offered .card .para img {
+  width: 3rem;
+  margin-right: 10px;
+}
+
+.courses-offered .card .para span {
+  border-bottom: 2px solid rgb(144, 141, 141);
+}
+
+.courses-offered .card .para {
+  line-height: 25px;
+  width: 36rem;
+}
+
+.courses-offered .card .para b:nth-child(3) {
+  color: rgba(129, 126, 126, 0.495);
+}
+.courses-offered .card .para b {
+  margin: 0 8px;
+}
+
+.courses-offered .card .detail p img {
+  margin-right: 6px;
+  width: 15px;
+}
+
+.courses-offered .card .col2 {
+  color: #ff5c00;
+  width: 8rem;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.courses-offered .card .col2 p {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.courses-offered .card .col2 span {
+  color: #747272;
+  font-weight: 300;
+}

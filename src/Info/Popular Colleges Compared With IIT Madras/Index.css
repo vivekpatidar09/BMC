@@ -1,0 +1,53 @@
+.clgCompare {
+  background-color: #fff;
+  padding: 20px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 97%;
+}
+
+.clgCompare .card h3 {
+  font-weight: 400;
+}
+
+.clgCompare .table table,
+td,
+th {
+  background-color: #fff;
+  border: 1px solid rgb(197 194 194);
+  padding: 10px;
+  /* width: 100%; */
+}
+
+.clgCompare .table {
+  width: 100%;
+  margin: 20px 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.clgCompare .table table {
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+.clgCompare .table table tr td p {
+  align-items: center;
+  display: flex;
+}
+
+.clgCompare .table table tr td {
+  width: 20rem;
+  padding: 16px;
+}
+
+.clgCompare .table table tr td:nth-child(1) {
+  width: 80%;
+  padding: 16px;
+}
+
+.clgCompare .table table tr th {
+  text-align: start;
+  font-weight: 500;
+  background-color: #f4f4f4;
+}

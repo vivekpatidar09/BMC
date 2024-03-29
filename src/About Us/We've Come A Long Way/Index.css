@@ -1,0 +1,71 @@
+.details {
+  width: 100%;
+}
+
+.details h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.details .card {
+  padding: 20px;
+  margin: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details img {
+  margin: 6px auto;
+  height: 4rem;
+  width: 3rem;
+  margin-bottom: 20px;
+}
+
+.details p {
+  font-size: 13px;
+  margin: 2px auto;
+  font-weight: 500;
+}
+
+.details .cards {
+  width: 78.8rem;
+  margin: 0 -5rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff3eb;
+}
+
+@media (min-width: 300px) and (max-width: 764px) {
+  .details .cards {
+    width: 105%;
+    margin: 0 -2rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1266px) {
+  .about-us .para-data {
+    margin: auto;
+    width: 53rem;
+  }
+
+  .details {
+    overflow: hidden;
+  }
+
+  .details .cards {
+    width: 100%;
+    margin: 0 -14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .details .cards {
+    width: 100%;
+    margin: 0 0px;
+  }
+
+  .header .h-logo {
+    margin: 0 22px;
+  }
+}

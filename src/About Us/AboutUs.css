@@ -1,0 +1,171 @@
+.about-us {
+  text-align: center;
+  padding: 1rem 5rem;
+}
+
+.about-us .para-data {
+  margin: auto;
+  width: 65rem;
+}
+
+.about-us .para-data p {
+  font-size: 12px;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.about-us .para-data a {
+  color: #ff5c00;
+}
+
+@media (min-width: 300px) and (max-width: 764px) {
+  .about-us {
+    padding: 1rem 1rem;
+  }
+
+  .about-us .para-data {
+    margin: auto;
+    width: 65rem;
+  }
+
+  .about-us .para-data p {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .head {
+    font-size: 45px;
+  }
+
+
+  .about-card .card {
+    margin: 20px auto;
+    width: 30rem;
+  }
+
+  .about-card .card p {
+    font-size: 13px;
+    margin: auto;
+    width: 24rem;
+    line-height: 19px;
+  }
+
+  .offerings .card2 p {
+    text-align: center;
+    width: 46rem;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 41px auto;
+  }
+
+  .offerings .card2 img {
+    width: 26rem;
+  }
+
+  .paragraphs {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+  }
+
+  .details .cards {
+    width: 104%;
+    margin: 0 -17px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+  .about-us {
+    padding: 1rem 1rem;
+  }
+
+  .about-us .para-data {
+    margin: auto;
+    width: 44rem;
+  }
+
+  .about-us .para-data p {
+    font-size: 19px;
+  }
+
+  .head {
+    font-size: 45px;
+  }
+
+  .about-card .card {
+    margin: 20px auto;
+    width: 30rem;
+  }
+
+  .about-card .card p {
+    font-size: 13px;
+    margin: auto;
+    width: 24rem;
+    line-height: 19px;
+  }
+
+  .offerings .card2 p {
+    text-align: center;
+    width: 40rem;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 41px auto;
+  }
+
+  .offerings .card2 img {
+    width: 26rem;
+  }
+
+  .paragraphs {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .offerings .card2 {
+    padding: 20px;
+    width: 43rem;
+  }
+
+  .paragraphs .para p {
+    width: 37rem;
+  }
+
+  .details .cards {
+    width: 104%;
+    margin: 0 -15px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1266px) {
+  .about-us .para-data {
+    margin: auto;
+    width: 53rem;
+  }
+
+  .details {
+    overflow: hidden;
+  }
+
+  .details .cards {
+    width: 49rem;
+    margin: 0 -14px;
+  }
+
+  .about-card .card {
+    width: 22rem;
+  }
+
+  .about-card .card p {
+    width: 21rem;
+  }
+
+  .offerings .card2 {
+    padding: 20px;
+    width: 50rem;
+  }
+
+  .paragraphs .para p {
+    width: 50rem;
+  }
+}

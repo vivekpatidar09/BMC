@@ -1,0 +1,47 @@
+.placement {
+  margin: 30px 0;
+  width: 18rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.placement h3 {
+  font-weight: 500;
+  margin: 11px;
+  padding-top: 11px;
+}
+
+.placement .card {
+  padding: 5px 10px 10px 5px;
+}
+
+.placement hr {
+  border: 1.2px solid rgb(225, 223, 223);
+}
+
+.placement .card .row {
+  margin: 10px;
+}
+
+.placement .card .row p:nth-child(1) {
+  color: #fd5b00;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.placement .card .row p:nth-child(2) {
+  font-size: 12px;
+  color: #9b9a9a;
+}
+
+.placement .card .images{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.placement .card .images img {
+  width: 4.3rem;
+  margin: 0 10px;
+}

@@ -1,0 +1,44 @@
+.department {
+    margin: 30px 0;
+    width: 18rem;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .department h4 {
+    font-weight: 400;
+    margin: 20px 25px;
+    padding-top: 11px;
+  }
+  
+  .department .card {
+    padding-bottom: 15px;
+  }
+  
+  .department hr {
+    margin: 10px 0;
+    border: 1.2px solid rgb(225, 223, 223);
+  }
+  
+  .department .card .row1 {
+    margin: 10px;
+  }
+  
+  .department .card .row1 p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 2px 0;
+  }
+  
+  .department .card .row1 img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 8px;
+  }
+  
+  .department .card .row1 p:nth-child(2) {
+    font-size: 11px;
+    font-weight: 500;
+    color: #a7a5a5;
+  }
+  

@@ -1,0 +1,57 @@
+.brochure {
+  background-color: #fff;
+  padding: 11px 18px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 46.8rem;
+}
+
+.brochure hr {
+  margin: 20px 0;
+  margin-bottom: 30px;
+}
+
+.brochure .card {
+  width: 14rem;
+  margin: 5px 13px;
+}
+
+.brochure .card img {
+  display: flex;
+  justify-content: center;
+  /* margin: 10px 50px; */
+  margin: auto;
+  width: 8rem;
+  height: 10rem;
+}
+
+.brochure .card .dataDownload {
+  background-color: #ff5c00;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.brochure .card .dataDownload p {
+  font-size: 11px;
+  margin: 0 3px;
+}
+
+.brochure .card .title {
+  margin-top: 25px;
+}
+
+.brochure .card .title h4 {
+  font-weight: 400;
+}
+
+.brochure .card .title p {
+  color: #cdcdcd;
+}
+
+.brochure .slick-slide {
+  max-width: 14.1rem;
+  margin: 0 11px;
+}

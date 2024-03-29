@@ -1,0 +1,155 @@
+.nearby-clg {
+  background-color: #fff;
+  padding: 20px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 97%;
+}
+
+.nearby-clg hr {
+  margin-top: 20px;
+  border: 1.5px solid rgb(225, 223, 223);
+}
+
+.nearby-clg h3 {
+  font-weight: 400;
+}
+
+.nearby-clg .card {
+  width: 16rem;
+  background-color: #fff;
+  height: 17rem;
+  margin: 20px 0;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.nearby-clg .card .col1 {
+  background: url("/images/nearbyUniversity.png");
+  padding: 10px;
+  height: 7rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nearby-clg .card .col1 img {
+  width: 2.5rem;
+  /* margin-top: 2.5rem; */
+}
+
+.nearby-clg .card .col1 .row1 p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+  width: 62px;
+  font-weight: 500;
+  padding: 1px 9px;
+  font-size: 9px;
+}
+
+.nearby-clg .card .cardData {
+  padding: 10px 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid rgb(240, 236, 236);
+}
+
+.nearby-clg .card img {
+  width: 100%;
+}
+
+.nearby-clg .card p {
+  margin: 4px 0;
+  font-weight: 500;
+  font-size: 12px;
+  width: 11rem;
+}
+
+.nearby-clg .card p:nth-child(3) {
+  font-size: 11px;
+  font-weight: 400;
+  color: #959595;
+}
+
+.nearby-clg .card .col1 button {
+  background: none;
+  border: 1px solid #fff;
+  padding: 2px 10px;
+  font-size: 11px;
+  border-radius: 29px;
+  color: #fff;
+}
+
+.nearby-clg .card .col1 .row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nearby-clg .card .col1 .row2 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.nearby-clg .card .col1 .row2 h6 {
+  color: #fff;
+}
+
+.nearby-clg .card .col1 .row2 p {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.nearby-clg .card .col1 .row2 .line {
+  margin: 0 10px;
+}
+
+.nearby-clg .card .cardData h4 {
+  font-weight: 500;
+}
+.nearby-clg .card .cardData .rate p {
+  border-radius: 6px;
+  background-color: #ff5c00;
+  width: 30px;
+  padding: 1px;
+  text-align: center;
+  color: #fff;
+}
+
+.nearby-clg .card .cardData button {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #ff5c00;
+  color: #fff;
+  border: none;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .nearby-clg .card {
+    margin: 20px 34px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nearby-clg .card {
+    width: 13.5rem;
+  }
+
+  .nearby-clg {
+    width: 94%;
+  } 
+
+  .nearby-clg .card .col1 img {
+    width: 2rem;
+  }
+}

@@ -1,0 +1,79 @@
+.clg-app {
+  background-color: #fff3eb;
+  padding: 20px;
+}
+
+.clg-app .card {
+  width: 14rem;
+  background-color: #fff;
+  height: 19.5rem;
+  margin: 20px 0;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.clg-app .card .col1 {
+  background: url("/images/page3card1img.png");
+  padding: 10px;
+  height: 6rem;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clg-app .card .col1 img {
+  width: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.clg-app .card .col1 p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+  width: 2.5rem;
+  font-weight: 500;
+  padding: 1px 9px;
+  font-size: 13px;
+  background-color: rgba(71, 70, 70, 0.518);
+}
+
+.clg-app .card .cardData {
+  padding: 10px 15px;
+}
+
+.clg-app .card .cardData span:nth-child(1) {
+  background-color: #ebf7f3;
+  color: #72b8b6;
+  padding: 1px 12px;
+  font-size: 15px;
+}
+
+.clg-app .card img {
+  width: 100%;
+}
+
+.clg-app .card p {
+  margin: 6px 0;
+  font-weight: 500;
+  font-size: 15px;
+  width: 11rem;
+}
+
+.clg-app .card p:nth-child(3) {
+  font-size: 12px;
+}
+
+.clg-app .card p:nth-child(4) {
+  color: #72b8b6;
+}
+
+.clg-app .card button {
+  color: #ff8312;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  font-size: 15px;
+}

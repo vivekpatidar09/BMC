@@ -1,0 +1,195 @@
+.explore-program {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.explore-program .card {
+  background-color: #fce9d2;
+  width: 19rem;
+  padding: 7px 14px;
+  margin: 10px 8px;
+}
+
+.explore-program .card .btns {
+  margin: 8px 0;
+}
+
+.explore-program .col1 p {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.explore-program .col1 h3 {
+  font-weight: 500;
+}
+
+.explore-program .col1 {
+  display: flex;
+}
+
+.explore-program .col1 img {
+  width: 55px;
+  height: 3rem;
+  margin-top: 4px;
+  margin-left: 52px;
+}
+
+.explore-program button {
+  background: none;
+  margin: 4px;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #fff;
+  padding: 7px 12px;
+  border-radius: 20px;
+}
+
+.explore-program a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+
+.explore-program .card .c-1 img {
+  width: 1.9rem;
+  width: 22px;
+  margin: auto;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.explore-program .card .c-1 img:nth-child(3) {
+  width: 1.6rem;
+  margin: auto 10px;
+  margin-right: 0px;
+}
+
+.explore-program .card .c-1 {
+  display: flex;
+  width: 10rem;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.explore-program .card .c-2 {
+  display: flex;
+  width: 6.5rem;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.explore-program .card .c-2 img {
+  width: 2rem;
+  width: 25px;
+  margin: auto;
+  height: 25px;
+  /* margin-right: 10px; */
+}
+
+.explore-program .card hr {
+  margin: 6px 0;
+  border: dashed 1px solid rgb(212, 209, 209);
+}
+
+.explore-program .card .row-1 {
+  display: flex;
+}
+
+.explore-program .card .row-2 {
+  display: flex;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .explore-program .card {
+    width: 39%;
+    padding: 39px;
+  }
+
+  .explore-program .col1 p {
+    font-size: 23px;
+  }
+
+  .explore-program .col1 h3 {
+    font-size: 36px;
+  }
+
+  .explore-program button {
+    margin: 8px;
+    font-size: 19px;
+    padding: 8px 20px;
+  }
+
+  .explore-program a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .explore-program .col1 img {
+    width: 9rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .explore-program .card {
+    width: 43%;
+    /* height: 4%; */
+    padding: 15px;
+  }
+
+  .explore-program .col1 p {
+    font-size: 17px;
+  }
+
+  .explore-program .col1 h3 {
+    font-size: 36px;
+  }
+
+  .explore-program button {
+    margin: 8px;
+    font-size: 19px;
+    padding: 8px 20px;
+  }
+
+  .explore-program a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .explore-program .col1 img {
+    width: 7rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1266px) {
+  .explore-program .card {
+    width: 44%;
+    /* height: 4%; */
+    padding: 15px;
+  }
+
+  .explore-program .col1 p {
+    font-size: 23px;
+  }
+
+  .explore-program .col1 h3 {
+    font-size: 36px;
+  }
+
+  .explore-program button {
+    margin: 8px;
+    font-size: 19px;
+    padding: 8px 20px;
+  }
+
+  .explore-program a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .explore-program .col1 img {
+    width: 9rem;
+  }
+}

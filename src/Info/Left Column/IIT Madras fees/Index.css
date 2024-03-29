@@ -1,0 +1,61 @@
+.fees .table table,
+td,
+th {
+  background-color: #fff;
+  border: 1px solid rgb(197 194 194);
+  padding: 16px;
+}
+
+.fees .table{
+    padding: 10px 24px;
+    width: 46rem;
+    margin: 20px 0;
+    background-color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.fees .table table {
+  border-radius: 10px;
+  border-collapse: collapse;
+}
+
+.fees .table table img {
+  width: 3rem;
+  margin: -16px 10px;
+}
+
+.fees .table table tr td:nth-child(1) {
+  color: #ff5c00;
+  width: 7rem;
+}
+
+.fees .table table tr td:nth-child(5) {
+    color: #ff5c00;
+    width: 8rem;
+    cursor: pointer;
+}
+
+
+.fees .table table tr td p{
+    align-items: center;
+    display: flex;   
+
+}
+
+.fees .table table tr td {
+  width: 11rem;
+  padding: 8px 15px;
+
+}
+
+.fees .table table tr th {
+  text-align: start;
+  font-weight: 500;
+  background-color: #f4f4f4;
+}
+
+.fees .table h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}

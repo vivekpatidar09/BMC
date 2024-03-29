@@ -1,0 +1,50 @@
+.top-courses {
+  background-color: #fce9d2;
+  padding: 1rem;
+  margin: 40px 0;
+}
+
+.top-courses h2 {
+  font-weight: 500;
+  font-size: 32px;
+  margin: 10px 10px;
+}
+
+.top-courses .btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-courses .btns button {
+  background: none;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 1.5px solid rgb(190, 187, 187);
+  padding: 6px 20px;
+  color: rgb(152, 151, 151);
+  /* width: 9rem; */
+  margin: 5px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .top-courses {
+    background-color: #fce9d2;
+    padding: 2rem;
+  }
+
+  .top-courses h2 {
+    font-size: 48px;
+    margin: 30px 10px;
+  }
+
+  .top-courses .btns button {
+    background: none;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 28px;
+    border: 1.5px solid rgb(190, 187, 187);
+    padding: 13px 23px;
+    color: rgb(152, 151, 151);
+    margin: 10px;
+  }
+}

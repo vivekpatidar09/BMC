@@ -1,0 +1,71 @@
+.comparison {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 2rem;
+}
+
+.comparison h3 {
+  font-weight: 400;
+}
+
+.comparison hr {
+  margin: 20px 0;
+}
+
+.comparison .card {
+  margin: 20px 10px;
+}
+
+.comparison .card img {
+  width: 10rem;
+}
+
+.comparison .card .datacol {
+  display: flex;
+  border: 1.5px solid rgb(214, 213, 213);
+  width: 276px;
+  padding: 20px;
+  margin-top: -10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.comparison .card .datacol p {
+  width: 8rem;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.comparison .card .datacol span {
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+}
+
+.comparison .compare-btn {
+  padding: 7px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  width: 10rem;
+  background-color: #ff5c00;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .comparison .card .datacol {
+    display: flex;
+    border: 1.5px solid rgb(214, 213, 213);
+    width: 254px;
+  }
+
+  .comparison .card img {
+    width: 9.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .clgCompare {
+    width: 94%;
+  }
+}

@@ -1,0 +1,145 @@
+.process .card {
+  background-color: #fff;
+  padding: 11px 24px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 46rem;
+}
+
+.process .card .row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.process .card .row1 .col1 {
+  display: flex;
+}
+
+.process .card .row1 .col1 img {
+  width: 50px;
+}
+
+.process .row1 .col2 {
+  margin: 0 10px;
+}
+
+.process .row1 .col2 h4 {
+  font-weight: 400;
+  margin: 3px 0;
+}
+
+.process .card .row1 .col2 li {
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.process .card .row1 .col3 {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.process .card .row1 .col3 img {
+  width: 10px;
+  margin: 0 3px;
+  height: 10px;
+}
+
+.process .card .row2 {
+  margin: 20px 0;
+}
+
+.process .card .row2 h5 {
+  font-weight: 400;
+  color: #a2b5e5;
+}
+
+.process .card .row2 .col1 {
+  margin: 10px 0;
+  padding: 5px 20px;
+  background-color: #fff3eb;
+  width: 70%;
+}
+
+.process .card .row2 .col1 img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 5px;
+}
+
+.process .card .row2 li {
+  font-size: 10px;
+  font-weight: 500;
+  margin: 4px 0;
+}
+
+.process .card .row2 li::marker {
+  color: #ff5c00;
+}
+
+.process .card .row2 span {
+  font-size: 12px;
+  color: #a2b5e5;
+}
+
+.process .card .row3 .col1 p {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.process .card .row3 .col1 span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.process .card .row3 .col1 button {
+  background: none;
+  outline: none;
+  padding: 8px 6px;
+  border-radius: 5px;
+  font-size: 11.5px;
+  font-weight: 500;
+  margin-right: 10px;
+  border: 1.5px solid #ff5c00;
+}
+
+.process .card .row3 .col1 .btns {
+  margin: 20px 0;
+}
+
+.process .card .row3 .col2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.process .card .row3 .col2 p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.process .card .row3 .col2 a {
+  color: #ff5c00;
+  font-size: 12px;
+}
+
+.process .card hr {
+  margin: 15px 0;
+  border: 1.3px solid #ddd9d9;
+}
+
+.process .card .viewall-btn button {
+  background-color: #ff5c00;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  padding: 8px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  margin: auto;
+  border: none;
+}

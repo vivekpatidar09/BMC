@@ -1,0 +1,27 @@
+.loacation {
+  background-color: #fff;
+  padding: 11px 25px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 46rem;
+}
+
+.loacation h3 {
+  font-weight: 400;
+}
+
+.loacation hr {
+  margin: 20px -21px;
+  width: 105%;
+}
+
+.loacation .col1 .row {
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.loacation .col1 .row p {
+  font-size: 11px;
+  margin: 0 40px;
+}

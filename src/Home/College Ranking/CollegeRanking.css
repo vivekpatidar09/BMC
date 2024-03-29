@@ -1,0 +1,63 @@
+.college-ranking table,
+td,
+th {
+  border: 1px solid rgb(197 194 194);
+  padding: 16px;
+}
+
+.college-ranking table {
+  border-collapse: collapse;
+}
+
+.college-ranking table img {
+  width: 3rem;
+  margin: -16px 10px;
+}
+
+.college-ranking table tr td:nth-child(1) {
+  width: 40rem;
+}
+
+.college-ranking table tr td {
+  width: 11rem;
+}
+
+.college-ranking table tr th {
+  text-align: start;
+  font-weight: 500;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .college-ranking table tr td:nth-child(1) {
+    width: 43rem;
+    font-size: 23px;
+  }
+
+  .college-ranking table tr td {
+    width: 7rem;
+    font-size: 23px;
+  }
+
+  .college-ranking table tr th {
+    text-align: start;
+    font-weight: 500;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .college-ranking table tr td:nth-child(1) {
+    width: 100rem;
+  }
+
+  .college-ranking table img {
+    width: 2.5rem;
+    margin: -13px 7px;
+  }
+
+  .college-ranking table,
+  td,
+  th {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,92 @@
+.about-card {
+  display: flex;
+  margin: auto;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.about-card img {
+  margin: 6px auto;
+  width: 3rem;
+  margin-bottom: 10px;
+}
+
+.about-card .card {
+  border: 1.5px solid rgb(228, 226, 226);
+  padding: 20px;
+  margin: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+}
+
+.about-card .card h2 {
+  margin: 10px 0;
+}
+
+.about-card .card p {
+  font-size: 12px;
+  margin: auto;
+  width: 26rem;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.offerings {
+  margin: 2rem auto;
+}
+
+.offerings .card2 {
+  padding: 20px;
+  width: 67rem;
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.offerings .card2 img {
+  width: 20rem;
+  margin: 10px auto;
+}
+
+.offerings .card2 p {
+  text-align: center;
+  width: 48rem;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 20px auto;
+}
+
+.paragraphs .para {
+  margin: 20px 0;
+}
+
+.paragraphs .para h3 {
+  text-align: start;
+  margin: 14px 0;
+}
+
+.paragraphs .para p {
+  text-align: start;
+  font-size: 12px;
+  width: 60rem;
+  font-weight: 500;
+}
+
+@media (min-width: 1024px) and (max-width: 1266px) {
+  .about-us .para-data {
+    margin: auto;
+    width: 53rem;
+  }
+
+  .details {
+    overflow: hidden;
+  }
+
+  .details .cards {
+    width: 100%;
+    margin: 0 -14px;
+  }
+}

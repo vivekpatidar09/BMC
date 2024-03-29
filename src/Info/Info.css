@@ -1,0 +1,579 @@
+.CARDs {
+  padding: 1rem 5rem;
+  background-color: #f4f4f4;
+}
+
+.main-info-conatiner {
+  width: 100%;
+}
+
+.CARDs .split-column {
+  display: flex;
+}
+
+.CARDs .split-column .leftcolumn {
+  margin-right: 10px;
+  width: 70%;
+}
+
+.CARDs .split-column .rightcolumn {
+  margin: 0 33px;
+  height: 100%;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .CARDs {
+    padding: 1rem 3rem;
+  }
+
+  .clg-app .card {
+    width: 16.5rem;
+  }
+
+  .search-course,
+  .fees .table,
+  .review,
+  .process .card,
+  .cutoff,
+  .admission,
+  .madras-placement,
+  .faculty,
+  .ranking,
+  .loacation {
+    width: 94%;
+  }
+
+  .notification {
+    margin-top: 140%;
+  }
+
+  .ranking .card .col1 {
+    height: 14rem;
+  }
+
+  .brochure {
+    width: 96%;
+  }
+
+  .brochure .slick-slide {
+    max-width: 11.3%;
+    margin: 0 0.55%;
+  }
+
+  .brochure .card img {
+    width: 10rem;
+    height: 14rem;
+  }
+
+  .courses-offered {
+    width: 100%;
+  }
+
+  .courses-offered .card .para {
+    width: 33rem;
+  }
+
+  .fees .table table tr td:nth-child(5) {
+    width: 10rem;
+  }
+
+  .madras-facilities {
+    width: 67rem;
+  }
+
+  .similar-clg .card {
+    width: 21rem;
+    margin: 20px 15px;
+  }
+
+  .loacation .col1 .row p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 26px;
+  }
+
+  .similar-clg .card .cardData {
+    padding: 30px 15px;
+  }
+
+  .clgCompare .table {
+    font-size: 20px;
+  }
+
+  .ClgQueAns .card .questions select {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .madras-facilities {
+    width: 29rem;
+    padding: 5px 10px;
+  }
+
+  .madras-facilities .card .facilities .data img {
+    margin: 0 11px;
+    width: 1.4rem;
+  }
+
+  .madras-facilities .card .facilities .data p {
+    font-size: 13px;
+  }
+
+  .madras-facilities .card .facilities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .CARDs .split-column .leftcolumn {
+    margin-right: 10px;
+    width: 66%;
+  }
+
+  .CARDs {
+    padding: 1rem 1.5rem;
+  }
+
+  .admission,
+  .madras-placement,
+  .faculty,
+  .ranking,
+  .loacation,
+  .comments {
+    padding: 15px 20px;
+    width: 42rem;
+  }
+
+  .ClgQueAns {
+    width: 94%;
+  }
+
+  .search-course {
+    padding: 12px;
+  }
+
+  .courses-offered {
+    width: 30rem;
+  }
+
+  .CARDs .split-column .rightcolumn {
+    margin: 0 10px;
+    height: 100%;
+  }
+
+  .comments .text-area textarea {
+    width: 35rem;
+    display: flex;
+    margin: auto;
+  }
+
+  .comments .comment-section .row1 p {
+    width: 36rem;
+  }
+
+  .similar-clg {
+    width: 42rem;
+    background-color: #fff;
+    padding: 24px;
+  }
+
+  .infoposter .posterdata .col2 {
+    margin: 0 17px;
+    width: 21rem;
+  }
+
+  .infoposter .posterdata .col2 .row5 p {
+    font-size: 14px;
+    margin-right: 9px;
+  }
+
+  .infoposter .posterdata {
+    margin: 0 1rem;
+  }
+
+  .infoposter .posterdata .form {
+    padding: 10px 23px;
+    width: 12rem;
+  }
+
+  .navigation-btns button {
+    margin: 0 8px;
+    font-size: 7px;
+  }
+
+  .infoposter {
+    background-size: 72rem 26rem;
+    padding: 1rem 0rem;
+  }
+
+  .notification {
+    margin-top: 1rem;
+  }
+
+  .madras-facilities.card .facilities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .search-course {
+    width: 29rem;
+  }
+
+  .courses-offered {
+    width: 30.5rem;
+  }
+
+  .fees .table {
+    font-size: 12px;
+    width: 28.5rem;
+  }
+
+  .similar-clg,
+  .nearby-clg {
+    width: 46rem;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .review {
+    width: 27.2rem;
+  }
+
+  .review .card .rating {
+    background-color: #fff3eb;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .review .card .boxes-section {
+    display: flex;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+
+  .review .card .box p:nth-child(2) {
+    margin-left: 10px;
+  }
+
+  .review .card .box {
+    padding: 11px;
+    height: 6rem;
+    width: 6rem;
+    margin: 10px;
+  }
+
+  .review .card .selectbtns select {
+    padding: 8px 5px;
+    margin: 5px;
+  }
+
+  .review .card button {
+    margin: 5px 4px;
+  }
+
+  .main-info-conatiner {
+    width: 100%;
+  }
+
+  .courses-offered .card .para {
+    line-height: 25px;
+    width: 23rem;
+  }
+
+  .courses-offered .card .detail {
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+
+  .courses-offered .card .data .col1 button {
+    padding: 9px;
+    margin: 4px 8px;
+  }
+
+  .search-course .card .nav-btn button {
+    margin: 6px 5px;
+  }
+
+  .courses-offered .card .data .col1 button {
+    padding: 6px;
+  }
+
+  .fees .table table tr td {
+    width: 11rem;
+    padding: 8px 8px;
+  }
+  .fees .table table tr th,
+  td {
+    text-align: start;
+    font-size: 11px;
+  }
+
+  .fees .table table tr td:nth-child(5) {
+    width: 17rem;
+  }
+
+  .process .card,
+  .cutoff,
+  .admission,
+  .madras-placement,
+  .faculty,
+  .ranking,
+  .loacation {
+    padding: 15px 20px;
+    width: 42rem;
+  }
+
+  .brochure {
+    width: 42rem;
+  }
+
+  .brochure .slick-slide {
+    max-width: 17.1rem;
+    margin: 0 29px;
+  }
+
+  .process .card .row1 .col1 img {
+    width: 63px;
+  }
+
+  .process .card .row1 .col2 li {
+    font-size: 10px;
+  }
+
+  .process .card .row3 .col2 p {
+    font-size: 10px;
+  }
+
+  /* right  */
+
+  .videos,
+  .topCourses,
+  .photos,
+  .same-group,
+  .news,
+  .notification,
+  .department,
+  .placement {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .madras-facilities .card .facilities .data img {
+    margin: 0 11px;
+  }
+
+  .admission,
+  .madras-placement,
+  .faculty,
+  .ranking,
+  .loacation,
+  .comments {
+    padding: 15px 20px;
+    width: 45rem;
+  }
+
+  .comments .text-area textarea {
+    width: 39rem;
+    margin: auto;
+  }
+
+  .comments .comment-section .row1 p {
+    width: 36rem;
+  }
+
+  .brochure .slick-slide {
+    max-width: 19.1rem;
+    margin: 0 25px;
+  }
+
+  .similar-clg .card {
+    width: 14rem;
+  }
+
+  .review {
+    width: 28.5rem;
+  }
+
+  .infoposter .posterdata .col2 {
+    margin: 0 17px;
+    width: 21rem;
+  }
+
+  .infoposter .posterdata .col2 .row5 p {
+    font-size: 14px;
+    margin-right: 9px;
+  }
+
+  .infoposter .posterdata {
+    margin: 0 1rem;
+  }
+
+  .navigation-btns button {
+    margin: 0 8px;
+    font-size: 7px;
+  }
+
+  .infoposter {
+    background-size: 72rem 26rem;
+    padding: 1rem 0rem;
+  }
+
+  .notification {
+    margin-top: 1rem;
+  }
+
+  .madras-facilities.card .facilities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .search-course {
+    width: 30.5rem;
+  }
+
+  .courses-offered {
+    width: 32rem;
+  }
+
+  .fees .table {
+    font-size: 12px;
+    width: 29rem;
+  }
+
+  .similar-clg,
+  .nearby-clg {
+    width: 46rem;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .review .card .rating {
+    background-color: #fff3eb;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .main-info-conatiner {
+    width: 100%;
+  }
+
+  .madras-facilities {
+    width: 29.5rem;
+  }
+
+  .courses-offered .card .para {
+    line-height: 25px;
+    width: 23rem;
+  }
+
+  .courses-offered .card .detail {
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+
+  .search-course .card .nav-btn button {
+    margin: 6px 5px;
+  }
+
+  .courses-offered .card .data .col1 button {
+    padding: 6px;
+  }
+
+  .fees .table table tr td {
+    width: 11rem;
+    padding: 8px 8px;
+  }
+  .fees .table table tr th,
+  td {
+    text-align: start;
+    font-size: 11px;
+  }
+
+  .fees .table table tr td:nth-child(5) {
+    width: 17rem;
+  }
+
+  .review .card .box p:nth-child(2) {
+    margin-left: 10px;
+  }
+
+  .review .card .box {
+    padding: 11px;
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .review .card .selectbtns select {
+    padding: 8px 5px;
+    margin: 5px;
+  }
+
+  .review .card button {
+    margin: 5px 4px;
+  }
+
+  .process .card,
+  .cutoff,
+  .admission,
+  .madras-placement,
+  .faculty,
+  .ranking,
+  .loacation {
+    padding: 15px 20px;
+    width: 45rem;
+  }
+
+  .brochure {
+    width: 45rem;
+  }
+
+  .process .card .row1 .col1 img {
+    width: 63px;
+  }
+
+  .process .card .row1 .col2 li {
+    font-size: 10px;
+  }
+
+  .process .card .row3 .col2 p {
+    font-size: 10px;
+  }
+
+  /* right  */
+
+  .videos,
+  .topCourses,
+  .photos,
+  .same-group,
+  .news,
+  .notification,
+  .department,
+  .placement {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1266px) {
+  .review,
+  .process .card,
+  .cutoff,
+  .admission,
+  .madras-placement,
+  .faculty,
+  .ranking,
+  .loacation {
+    padding: 15px 20px;
+    width: 92%;
+  }
+}

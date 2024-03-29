@@ -1,0 +1,30 @@
+.madras-facilities{
+  width: 66rem;
+  padding: 5px 20px;
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+.madras-facilities .card h3 {
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.madras-facilities .card .facilities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.madras-facilities .card .facilities .data {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  margin-right: 10px;
+}
+
+.madras-facilities .card .facilities .data img {
+  margin: 0 25px;
+}

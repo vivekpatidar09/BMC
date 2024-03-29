@@ -1,0 +1,87 @@
+.poster {
+  background: url("/images/clgposter.jpg");
+  background-size: cover;
+  background-size: 79rem 40rem;
+  background-repeat: no-repeat;
+  display: flex;
+  background-color: black;
+  position: relative;
+  justify-content: center;
+  padding: 8rem;
+}
+
+.poster h1 {
+  color: #fff;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.poster .search-row input {
+  width: 78%;
+  margin: 30px 0;
+  padding: 15px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+.poster .search-row button {
+  padding: 15px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  outline: none;
+  width: 7rem;
+  background-color: #ff5c00;
+  color: #fff;
+}
+
+.poster .btn {
+  background-color: #ff5c00;
+  color: #fff;
+  border: none;
+  outline: none;
+  float: right;
+  padding: 7px;
+  border-radius: 30px;
+  width: 10rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .poster {
+    background-size: 76rem 35rem;
+    padding: 6rem;
+  }
+
+  .poster h1 {
+    font-size: 54px;
+  }
+
+  .poster .search-row input {
+    width: 76%;
+    margin: 30px 0;
+    padding: 23px;
+    border-top-left-radius: 61px;
+    border-bottom-left-radius: 61px;
+    font-size: 26px;
+  }
+
+  .poster .search-row button {
+    padding: 23px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    font-size: 26px;
+    width: 9rem;
+  }
+
+  .poster .btn {
+    padding: 17px;
+    border-radius: 30px;
+    width: 14rem;
+    margin-right: 2rem;
+    font-size: 18px;
+  }
+}

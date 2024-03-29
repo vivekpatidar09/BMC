@@ -1,0 +1,31 @@
+.videos {
+  margin: 30px 0;
+  margin-top: 2rem;
+  width: 18rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.videos h4 {
+  font-weight: 500;
+  margin: 11px;
+  padding-top: 11px;
+}
+
+.videos .card {
+  padding: 15px;
+}
+
+.videos hr {
+  border: 1.5px solid rgb(225, 223, 223);
+}
+
+.videos img {
+  width: 100%;
+}
+
+.videos img:nth-child(2) {
+  width: 97%;
+  margin: auto;
+  display: flex;
+}

@@ -1,0 +1,71 @@
+.topStudy-places .card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 1rem 1.7rem;
+  /* width: 6.5rem; */
+  border: 2px solid rgb(242, 242, 242);
+  margin: 10px;
+}
+
+.topStudy-places img {
+  width: 6rem;
+}
+
+.topStudy-places h4 {
+  font-weight: 500;
+}
+
+/* crowsel */
+.topStudy-places .slick-slide {
+  max-width: 6rem;
+  margin: 0px 42px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .topStudy-places .slick-slide {
+    max-width: 4.5%;
+    margin: 0px 1%;
+  }
+
+  .topStudy-places img {
+    width: 7rem;
+    margin: auto;
+  }
+
+  .topStudy-places h4 {
+    font-size: 22px;
+  }
+
+  .topStudy-places .card {
+    padding: 1.8rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1266px) {
+  .topStudy-places .slick-slide {
+    max-width: 3.6%;
+    margin: 0px 1.26%;
+  }
+
+  .topStudy-places img {
+    width: 7rem;
+    margin: auto;
+  }
+
+  .topStudy-places h4 {
+    font-size: 22px;
+  }
+
+  .topStudy-places .card {
+    padding: 1.8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .topStudy-places .slick-slide {
+    max-width: 3.6%;
+    margin: 0px 1.26%;
+  }
+}

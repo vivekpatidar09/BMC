@@ -1,0 +1,88 @@
+.admission {
+  background-color: #fff;
+  padding: 11px 25px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 46rem;
+  }
+  
+  .admission .card h3 {
+    font-weight: 400;
+  }
+  
+  .admission .card .row1 button {
+    border: 1.5px solid #ff5c00;
+    background: none;
+    font-size: 11px;
+    padding: 5px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  
+  .admission .card .row1 {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .admission .card .row1 p {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .admission .card .row2 p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0;
+  }
+  
+  .admission .table table,
+  td,
+  th {
+    background-color: #fff;
+    border: 1px solid rgb(197 194 194);
+    padding: 10px;
+  }
+  
+  .admission .table {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .admission .table table {
+    border-radius: 10px;
+    border-collapse: collapse;
+  }
+  
+  .admission .table table tr td p {
+    align-items: center;
+    display: flex;
+  }
+  
+  .admission .table table tr td {
+    width: 20rem;
+    padding: 16px;
+  }
+  
+  .admission .table table tr th {
+    text-align: start;
+    font-weight: 500;
+    background-color: #f4f4f4;
+  }
+  
+  .admission .card .viewBtn {
+    background-color: #ff5c00;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    margin: auto;
+    border: none;
+  }
+  

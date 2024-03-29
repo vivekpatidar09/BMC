@@ -1,0 +1,50 @@
+.search-course {
+  background-color: #fff;
+  padding: 11px 24px;
+  margin-top: 2rem;
+  border-radius: 5px;
+  width: 46rem;
+}
+
+.search-course .card {
+  overflow: hidden;
+}
+
+.search-course .card .nav-btn {
+  margin: 15px 0;
+}
+
+.search-course .card .nav-btn button {
+  font-size: 12px;
+  border: 1px solid #ff5c00;
+  padding: 7px 15px;
+  border-radius: 30px;
+  background-color: #fff;
+  margin: 0 5px;
+  color: #ff5c00;
+  /* border: none; */
+}
+
+.search-course .card input {
+  width: 100%;
+  background-color: #fff3eb;
+  padding: 17px;
+  border: none;
+  margin: 10px 0;
+  outline: none;
+}
+
+.search-course .card .check-box {
+  display: flex;
+  margin: 10px 0;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #fff3eb;
+}
+
+.search-course .card .check-box p {
+  display: flex;
+  align-items: center;
+  margin: 5px 3px;
+  font-size: 12px;
+}

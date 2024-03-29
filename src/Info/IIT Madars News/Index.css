@@ -1,0 +1,76 @@
+.madras-news {
+  background-color: #fff;
+  padding: 20px;
+  margin: 2rem 0;
+  border-radius: 5px;
+  width: 97%;
+}
+
+.madras-news h3 {
+  font-weight: 400;
+}
+
+.madras-news hr {
+  margin: 15px 0;
+}
+
+.madras-news .card {
+  width: 17rem;
+  margin: 0 10px;
+}
+
+.madras-news .cards {
+  display: flex;
+  margin: 20px 0;
+}
+
+.madras-news .card img {
+  width: 100%;
+}
+
+.madras-news .card .data {
+  border: 3px solid #e5dfdf;
+  margin: -10px 0;
+  border-top: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+}
+
+.madras-news .card .data p:nth-child(1) {
+  font-size: 12px;
+  font-weight: 500;
+  color: #959595;
+}
+
+.madras-news .card .data p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.madras-news .card .data p:nth-child(3) {
+  font-size: 11px;
+  font-weight: 500;
+}
+.madras-news .card .data a {
+  color: #ff5c00;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .madras-news {
+    width: 94%;
+  }
+
+  .madras-news .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+
+  .madras-news .card {
+    width: 17rem;
+    margin: 20px  10px;
+  }
+}
